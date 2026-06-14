@@ -1,0 +1,23 @@
+agent:
+  name: TripleA Local Agent
+  version: 0.1.0
+
+ollama:
+  host: http://localhost:11434
+
+model:
+  default: qwen2.5-coder:7b
+  temperature: 0.2
+
+workspace:
+  root: .
+
+memory:
+  enabled: true
+
+logging:
+  level: INFO
+
+security:
+  allow_file_write: true
+  allow_file_delete: false
